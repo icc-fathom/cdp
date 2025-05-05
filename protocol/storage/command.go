@@ -5,9 +5,9 @@ package storage
 import (
 	"encoding/json"
 
-	"github.com/mafredri/cdp/protocol/browser"
-	"github.com/mafredri/cdp/protocol/network"
-	"github.com/mafredri/cdp/protocol/page"
+	"github.com/icc-fathom/cdp/protocol/browser"
+	"github.com/icc-fathom/cdp/protocol/network"
+	"github.com/icc-fathom/cdp/protocol/page"
 )
 
 // GetStorageKeyForFrameArgs represents the arguments for GetStorageKeyForFrame in the Storage domain.

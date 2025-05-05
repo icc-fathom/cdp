@@ -3,7 +3,7 @@ package cdp
 import (
 	"fmt"
 
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 type eventClient interface {

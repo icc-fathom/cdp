@@ -3,7 +3,7 @@
 package performance
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // MetricsClient is a client for Metrics events. Current values of the

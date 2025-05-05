@@ -3,7 +3,7 @@
 package serviceworker
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // WorkerErrorReportedClient is a client for WorkerErrorReported events.

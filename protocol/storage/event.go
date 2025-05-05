@@ -5,9 +5,9 @@ package storage
 import (
 	"encoding/json"
 
-	"github.com/mafredri/cdp/protocol/network"
-	"github.com/mafredri/cdp/protocol/page"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/protocol/network"
+	"github.com/icc-fathom/cdp/protocol/page"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // CacheStorageContentUpdatedClient is a client for CacheStorageContentUpdated events.

@@ -3,7 +3,7 @@
 package cast
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // SinksUpdatedClient is a client for SinksUpdated events. This is fired

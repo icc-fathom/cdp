@@ -8,10 +8,10 @@ import (
 
 	"github.com/coder/websocket"
 
-	"github.com/mafredri/cdp"
-	"github.com/mafredri/cdp/devtool"
-	"github.com/mafredri/cdp/protocol/runtime"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp"
+	"github.com/icc-fathom/cdp/devtool"
+	"github.com/icc-fathom/cdp/protocol/runtime"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 func Example_dial_using_alternative_websocket_implementation() {

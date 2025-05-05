@@ -3,7 +3,7 @@
 package security
 
 import (
-	"github.com/mafredri/cdp/protocol/internal"
+	"github.com/icc-fathom/cdp/protocol/internal"
 )
 
 // CertificateID An internal certificate ID value.

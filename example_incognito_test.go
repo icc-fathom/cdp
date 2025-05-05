@@ -6,13 +6,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/mafredri/cdp"
-	"github.com/mafredri/cdp/devtool"
-	"github.com/mafredri/cdp/protocol/page"
-	"github.com/mafredri/cdp/protocol/runtime"
-	"github.com/mafredri/cdp/protocol/target"
-	"github.com/mafredri/cdp/rpcc"
-	"github.com/mafredri/cdp/session"
+	"github.com/icc-fathom/cdp"
+	"github.com/icc-fathom/cdp/devtool"
+	"github.com/icc-fathom/cdp/protocol/page"
+	"github.com/icc-fathom/cdp/protocol/runtime"
+	"github.com/icc-fathom/cdp/protocol/target"
+	"github.com/icc-fathom/cdp/rpcc"
+	"github.com/icc-fathom/cdp/session"
 )
 
 func Example_incognito() {
@@ -72,7 +72,7 @@ func Example_incognito() {
 			return err
 		}
 
-		url := "https://github.com/mafredri/cdp"
+		url := "https://github.com/icc-fathom/cdp"
 		nav, err := c.Page.Navigate(ctx, page.NewNavigateArgs(url))
 		if err != nil {
 			return err
@@ -121,5 +121,5 @@ func Example_incognito() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	// Output: Navigated to https://github.com/mafredri/cdp inside an incognito tab!
+	// Output: Navigated to https://github.com/icc-fathom/cdp inside an incognito tab!
 }

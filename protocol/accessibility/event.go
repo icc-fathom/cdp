@@ -3,7 +3,7 @@
 package accessibility
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // LoadCompleteClient is a client for LoadComplete events. The loadComplete

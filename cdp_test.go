@@ -13,11 +13,11 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/mafredri/cdp"
-	"github.com/mafredri/cdp/devtool"
-	"github.com/mafredri/cdp/protocol/page"
-	"github.com/mafredri/cdp/protocol/runtime"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp"
+	"github.com/icc-fathom/cdp/devtool"
+	"github.com/icc-fathom/cdp/protocol/page"
+	"github.com/icc-fathom/cdp/protocol/runtime"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 var TestSockSrv string
@@ -84,7 +84,7 @@ func TestBrowser_RemoteDebuggingProtocol(t *testing.T) {
 	}
 	defer domContentEventFired.Close()
 
-	// TODO(mafredri): Create a testdata HTML instead of relying on google.com.
+	// TODO(icc-fathom): Create a testdata HTML instead of relying on google.com.
 	_, err = c.Page.Navigate(ctx, page.NewNavigateArgs("https://www.google.com"))
 	if err != nil {
 		t.Fatal(err)

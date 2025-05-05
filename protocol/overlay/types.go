@@ -3,7 +3,7 @@
 package overlay
 
 import (
-	"github.com/mafredri/cdp/protocol/dom"
+	"github.com/icc-fathom/cdp/protocol/dom"
 )
 
 // SourceOrderConfig Configuration data for drawing the source order of an

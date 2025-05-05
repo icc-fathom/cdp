@@ -3,7 +3,7 @@
 package heapprofiler
 
 import (
-	"github.com/mafredri/cdp/protocol/runtime"
+	"github.com/icc-fathom/cdp/protocol/runtime"
 )
 
 // AddInspectedHeapObjectArgs represents the arguments for AddInspectedHeapObject in the HeapProfiler domain.

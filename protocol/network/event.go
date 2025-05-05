@@ -3,8 +3,8 @@
 package network
 
 import (
-	"github.com/mafredri/cdp/protocol/internal"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/protocol/internal"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // DataReceivedClient is a client for DataReceived events. Fired when data

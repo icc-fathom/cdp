@@ -3,9 +3,9 @@
 package page
 
 import (
-	"github.com/mafredri/cdp/protocol/internal"
-	"github.com/mafredri/cdp/protocol/network"
-	"github.com/mafredri/cdp/protocol/runtime"
+	"github.com/icc-fathom/cdp/protocol/internal"
+	"github.com/icc-fathom/cdp/protocol/network"
+	"github.com/icc-fathom/cdp/protocol/runtime"
 )
 
 // FrameID Unique frame identifier.

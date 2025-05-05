@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/mafredri/cdp/protocol/runtime"
+	"github.com/icc-fathom/cdp/protocol/runtime"
 )
 
 var update = flag.Bool("update", false, "update .golden files")

@@ -3,7 +3,7 @@
 package emulation
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // VirtualTimeBudgetExpiredClient is a client for VirtualTimeBudgetExpired events.

@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mafredri/cdp"
-	"github.com/mafredri/cdp/internal/testutil"
-	"github.com/mafredri/cdp/protocol/page"
-	"github.com/mafredri/cdp/protocol/runtime"
-	"github.com/mafredri/cdp/session"
+	"github.com/icc-fathom/cdp"
+	"github.com/icc-fathom/cdp/internal/testutil"
+	"github.com/icc-fathom/cdp/protocol/page"
+	"github.com/icc-fathom/cdp/protocol/runtime"
+	"github.com/icc-fathom/cdp/session"
 )
 
 func checkBrowser(t *testing.T) {

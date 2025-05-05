@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/mafredri/cdp"
-	"github.com/mafredri/cdp/devtool"
-	"github.com/mafredri/cdp/protocol/page"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp"
+	"github.com/icc-fathom/cdp/devtool"
+	"github.com/icc-fathom/cdp/protocol/page"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 func main() {

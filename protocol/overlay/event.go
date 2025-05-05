@@ -3,9 +3,9 @@
 package overlay
 
 import (
-	"github.com/mafredri/cdp/protocol/dom"
-	"github.com/mafredri/cdp/protocol/page"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/protocol/dom"
+	"github.com/icc-fathom/cdp/protocol/page"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // InspectNodeRequestedClient is a client for InspectNodeRequested events.

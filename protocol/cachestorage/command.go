@@ -3,7 +3,7 @@
 package cachestorage
 
 import (
-	"github.com/mafredri/cdp/protocol/storage"
+	"github.com/icc-fathom/cdp/protocol/storage"
 )
 
 // DeleteCacheArgs represents the arguments for DeleteCache in the CacheStorage domain.

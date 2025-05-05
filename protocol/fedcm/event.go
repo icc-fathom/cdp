@@ -3,7 +3,7 @@
 package fedcm
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // DialogShownClient is a client for DialogShown events.

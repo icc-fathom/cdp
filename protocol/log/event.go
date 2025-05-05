@@ -3,7 +3,7 @@
 package log
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // EntryAddedClient is a client for EntryAdded events. Issued when new message

@@ -3,7 +3,7 @@
 package audits
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // IssueAddedClient is a client for IssueAdded events.

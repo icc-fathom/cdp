@@ -3,7 +3,7 @@
 package security
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // CertificateErrorClient is a client for CertificateError events. There is a

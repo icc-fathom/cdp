@@ -3,7 +3,7 @@
 package target
 
 import (
-	"github.com/mafredri/cdp/protocol/internal"
+	"github.com/icc-fathom/cdp/protocol/internal"
 )
 
 // ActivateTargetArgs represents the arguments for ActivateTarget in the Target domain.

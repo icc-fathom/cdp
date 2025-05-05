@@ -3,7 +3,7 @@
 package serviceworker
 
 import (
-	"github.com/mafredri/cdp/protocol/target"
+	"github.com/icc-fathom/cdp/protocol/target"
 )
 
 // RegistrationID

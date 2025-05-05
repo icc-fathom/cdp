@@ -3,7 +3,7 @@
 package animation
 
 import (
-	"github.com/mafredri/cdp/protocol/dom"
+	"github.com/icc-fathom/cdp/protocol/dom"
 )
 
 // Animation Animation instance.

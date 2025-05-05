@@ -3,8 +3,8 @@
 package dom
 
 import (
-	"github.com/mafredri/cdp/protocol/internal"
-	"github.com/mafredri/cdp/protocol/runtime"
+	"github.com/icc-fathom/cdp/protocol/internal"
+	"github.com/icc-fathom/cdp/protocol/runtime"
 )
 
 // CollectClassNamesFromSubtreeArgs represents the arguments for CollectClassNamesFromSubtree in the DOM domain.

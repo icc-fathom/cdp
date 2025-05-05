@@ -3,7 +3,7 @@
 package applicationcache
 
 import (
-	"github.com/mafredri/cdp/protocol/page"
+	"github.com/icc-fathom/cdp/protocol/page"
 )
 
 // GetApplicationCacheForFrameArgs represents the arguments for GetApplicationCacheForFrame in the ApplicationCache domain.

@@ -3,8 +3,8 @@
 package domdebugger
 
 import (
-	"github.com/mafredri/cdp/protocol/dom"
-	"github.com/mafredri/cdp/protocol/runtime"
+	"github.com/icc-fathom/cdp/protocol/dom"
+	"github.com/icc-fathom/cdp/protocol/runtime"
 )
 
 // GetEventListenersArgs represents the arguments for GetEventListeners in the DOMDebugger domain.

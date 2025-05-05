@@ -3,7 +3,7 @@
 package indexeddb
 
 import (
-	"github.com/mafredri/cdp/protocol/runtime"
+	"github.com/icc-fathom/cdp/protocol/runtime"
 )
 
 // DatabaseWithObjectStores Database with an array of object stores.

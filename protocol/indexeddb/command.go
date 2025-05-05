@@ -3,7 +3,7 @@
 package indexeddb
 
 import (
-	"github.com/mafredri/cdp/protocol/storage"
+	"github.com/icc-fathom/cdp/protocol/storage"
 )
 
 // ClearObjectStoreArgs represents the arguments for ClearObjectStore in the IndexedDB domain.

@@ -3,8 +3,8 @@
 package browser
 
 import (
-	"github.com/mafredri/cdp/protocol/page"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/protocol/page"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // DownloadWillBeginClient is a client for DownloadWillBegin events. Fired

@@ -3,7 +3,7 @@
 package webauthn
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // CredentialAddedClient is a client for CredentialAdded events. Triggered

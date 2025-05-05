@@ -3,7 +3,7 @@
 package layertree
 
 import (
-	"github.com/mafredri/cdp/protocol/dom"
+	"github.com/icc-fathom/cdp/protocol/dom"
 )
 
 // LayerID Unique Layer identifier.

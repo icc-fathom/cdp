@@ -3,8 +3,8 @@
 package profiler
 
 import (
-	"github.com/mafredri/cdp/protocol/debugger"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/protocol/debugger"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // ConsoleProfileFinishedClient is a client for ConsoleProfileFinished events.

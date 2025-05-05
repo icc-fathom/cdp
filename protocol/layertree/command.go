@@ -5,7 +5,7 @@ package layertree
 import (
 	"encoding/json"
 
-	"github.com/mafredri/cdp/protocol/dom"
+	"github.com/icc-fathom/cdp/protocol/dom"
 )
 
 // CompositingReasonsArgs represents the arguments for CompositingReasons in the LayerTree domain.

@@ -3,10 +3,10 @@
 package page
 
 import (
-	"github.com/mafredri/cdp/protocol/dom"
-	"github.com/mafredri/cdp/protocol/network"
-	"github.com/mafredri/cdp/protocol/runtime"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/protocol/dom"
+	"github.com/icc-fathom/cdp/protocol/network"
+	"github.com/icc-fathom/cdp/protocol/runtime"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // DOMContentEventFiredClient is a client for DOMContentEventFired events.

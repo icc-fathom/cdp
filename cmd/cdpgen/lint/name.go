@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	lint "github.com/mafredri/go-lint"
+	lint "github.com/icc-fathom/go-lint"
 )
 
 var (

@@ -16,7 +16,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/mafredri/cdp/cmd/cdpgen/proto"
+	"github.com/icc-fathom/cdp/cmd/cdpgen/proto"
 )
 
 // Global constants.
@@ -49,7 +49,7 @@ func main() {
 		jsProtoFileJSON  string
 	)
 	flag.StringVar(&dest, "dest", "", "Destination for generated cdp package")
-	flag.StringVar(&pkg, "pkg", "github.com/mafredri/cdp", "Name of package")
+	flag.StringVar(&pkg, "pkg", "github.com/icc-fathom/cdp", "Name of package")
 	flag.StringVar(&browserProtoJSON, "browser-proto", "./protodef/browser_protocol.json", "Path to browser protocol")
 	flag.StringVar(&jsProtoFileJSON, "js-proto", "./protodef/js_protocol.json", "Path to JS protocol")
 	flag.Parse()

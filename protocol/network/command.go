@@ -3,9 +3,9 @@
 package network
 
 import (
-	"github.com/mafredri/cdp/protocol/debugger"
-	"github.com/mafredri/cdp/protocol/internal"
-	"github.com/mafredri/cdp/protocol/io"
+	"github.com/icc-fathom/cdp/protocol/debugger"
+	"github.com/icc-fathom/cdp/protocol/internal"
+	"github.com/icc-fathom/cdp/protocol/io"
 )
 
 // SetAcceptedEncodingsArgs represents the arguments for SetAcceptedEncodings in the Network domain.

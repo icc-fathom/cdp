@@ -1,4 +1,4 @@
-module github.com/mafredri/cdp
+module github.com/icc-fathom/cdp
 
 go 1.13
 

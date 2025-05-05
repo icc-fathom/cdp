@@ -5,8 +5,8 @@ package accessibility
 import (
 	"encoding/json"
 
-	"github.com/mafredri/cdp/protocol/dom"
-	"github.com/mafredri/cdp/protocol/page"
+	"github.com/icc-fathom/cdp/protocol/dom"
+	"github.com/icc-fathom/cdp/protocol/page"
 )
 
 // AXNodeID Unique accessibility node identifier.

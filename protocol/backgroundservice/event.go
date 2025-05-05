@@ -3,7 +3,7 @@
 package backgroundservice
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // RecordingStateChangedClient is a client for RecordingStateChanged events.

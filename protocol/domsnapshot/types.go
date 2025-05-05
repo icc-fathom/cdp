@@ -3,9 +3,9 @@
 package domsnapshot
 
 import (
-	"github.com/mafredri/cdp/protocol/dom"
-	"github.com/mafredri/cdp/protocol/domdebugger"
-	"github.com/mafredri/cdp/protocol/page"
+	"github.com/icc-fathom/cdp/protocol/dom"
+	"github.com/icc-fathom/cdp/protocol/domdebugger"
+	"github.com/icc-fathom/cdp/protocol/page"
 )
 
 // DOMNode A Node in the DOM tree.

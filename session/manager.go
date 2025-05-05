@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/mafredri/cdp"
-	"github.com/mafredri/cdp/internal/errors"
-	"github.com/mafredri/cdp/protocol/target"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp"
+	"github.com/icc-fathom/cdp/internal/errors"
+	"github.com/icc-fathom/cdp/protocol/target"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // Manager establishes session connections to targets.
@@ -32,7 +32,7 @@ const (
 	// extended periods of time and allowing slow connections to
 	// deliver the message.
 	//
-	// TODO(mafredri): Should we allow configuring the timeout?
+	// TODO(icc-fathom): Should we allow configuring the timeout?
 	defaultDetachTimeout = 5 * time.Second
 )
 
@@ -91,7 +91,7 @@ func (m *Manager) watch(ev *sessionEvents, created <-chan *session, done, errC c
 	defer func() {
 		var err []error
 		for _, ss := range sessions {
-			// TODO(mafredri): Speed up by closing sessions concurrently.
+			// TODO(icc-fathom): Speed up by closing sessions concurrently.
 			err = append(err, ss.Close())
 		}
 		done <- errors.Merge(err...)
@@ -177,7 +177,7 @@ func NewManager(c *cdp.Client) (*Manager, error) {
 		errC: make(chan error, 1),
 	}
 
-	// TODO(mafredri): Inherit the context from rpcc.Conn in cdp.Client.
+	// TODO(icc-fathom): Inherit the context from rpcc.Conn in cdp.Client.
 	// cdp.Client does not yet expose the context, nor rpcc.Conn.
 	m.ctx, m.cancel = context.WithCancel(context.TODO())
 

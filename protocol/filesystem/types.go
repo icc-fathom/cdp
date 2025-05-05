@@ -3,8 +3,8 @@
 package filesystem
 
 import (
-	"github.com/mafredri/cdp/protocol/network"
-	"github.com/mafredri/cdp/protocol/storage"
+	"github.com/icc-fathom/cdp/protocol/network"
+	"github.com/icc-fathom/cdp/protocol/storage"
 )
 
 // File

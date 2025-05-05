@@ -5,9 +5,9 @@ import (
 	"errors"
 	"regexp"
 
-	"github.com/mafredri/cdp"
-	"github.com/mafredri/cdp/protocol/target"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp"
+	"github.com/icc-fathom/cdp/protocol/target"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 var httpRe = regexp.MustCompile("^https?://")

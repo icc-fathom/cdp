@@ -3,7 +3,7 @@
 package animation
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // CanceledClient is a client for AnimationCanceled events. Event for when an

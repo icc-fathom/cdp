@@ -3,7 +3,7 @@
 package tethering
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // AcceptedClient is a client for Accepted events. Informs that port was

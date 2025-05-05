@@ -3,7 +3,7 @@ package cdp
 import (
 	"context"
 
-	"github.com/mafredri/cdp/protocol/io"
+	"github.com/icc-fathom/cdp/protocol/io"
 )
 
 // NewIOStreamReader returns a reader for io.Stream that implements io.Reader

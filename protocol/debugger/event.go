@@ -5,8 +5,8 @@ package debugger
 import (
 	"encoding/json"
 
-	"github.com/mafredri/cdp/protocol/runtime"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/protocol/runtime"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // BreakpointResolvedClient is a client for BreakpointResolved events. Fired

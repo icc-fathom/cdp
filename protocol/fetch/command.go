@@ -3,8 +3,8 @@
 package fetch
 
 import (
-	"github.com/mafredri/cdp/protocol/io"
-	"github.com/mafredri/cdp/protocol/network"
+	"github.com/icc-fathom/cdp/protocol/io"
+	"github.com/icc-fathom/cdp/protocol/network"
 )
 
 // EnableArgs represents the arguments for Enable in the Fetch domain.

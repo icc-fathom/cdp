@@ -3,8 +3,8 @@
 package target
 
 import (
-	"github.com/mafredri/cdp/protocol/internal"
-	"github.com/mafredri/cdp/protocol/page"
+	"github.com/icc-fathom/cdp/protocol/internal"
+	"github.com/icc-fathom/cdp/protocol/page"
 )
 
 // ID

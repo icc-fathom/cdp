@@ -6,8 +6,8 @@ package serviceworker
 import (
 	"context"
 
-	"github.com/mafredri/cdp/protocol/internal"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/protocol/internal"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // domainClient is a client for the ServiceWorker domain.

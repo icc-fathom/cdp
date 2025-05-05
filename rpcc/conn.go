@@ -189,7 +189,7 @@ func DialContext(ctx context.Context, target string, opts ...DialOption) (conn *
 		// the connection afterwards and recvDone will return. Maybe
 		// we could give the user time to react to the event before
 		// closing?
-		// TODO(mafredri): Do we want to close here, like this?
+		// TODO(icc-fathom): Do we want to close here, like this?
 		c.close(err)
 	}
 	go c.recv(c.notify, recvDone)
@@ -207,11 +207,11 @@ type writeLimiter struct {
 	net.Conn
 }
 
-// BUG(mafredri): Chrome does not support websocket fragmentation
+// BUG(icc-fathom): Chrome does not support websocket fragmentation
 // (continuation messages) or messages that exceed 1MB in size.
 // This limit was bumped in more recent versions of Chrome which can
 // receive messages up to 100MB in size.
-// See https://github.com/mafredri/cdp/issues/4 and
+// See https://github.com/icc-fathom/cdp/issues/4 and
 // https://github.com/ChromeDevTools/devtools-protocol/issues/24.
 func (c *writeLimiter) Write(b []byte) (n int, err error) {
 	if len(b) > c.limit {

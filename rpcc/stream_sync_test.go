@@ -171,8 +171,8 @@ func TestStreamSyncNotifyDeadlock(t *testing.T) {
 	syncErr := make(chan error)
 	go func() {
 		// This could cause a deadlock due to competition for same mutexes:
-		// https://github.com/mafredri/cdp/issues/90
-		// https://github.com/mafredri/cdp/pull/91
+		// https://github.com/icc-fathom/cdp/issues/90
+		// https://github.com/icc-fathom/cdp/pull/91
 		syncErr <- Sync(s1, s2)
 	}()
 	for i := 0; i < 10; i++ {

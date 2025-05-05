@@ -3,7 +3,7 @@
 package performancetimeline
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // TimelineEventAddedClient is a client for TimelineEventAdded events. Sent

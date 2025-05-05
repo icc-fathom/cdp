@@ -3,7 +3,7 @@
 package input
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // DragInterceptedClient is a client for DragIntercepted events. Emitted only

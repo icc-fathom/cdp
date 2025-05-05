@@ -3,7 +3,7 @@
 package target
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // AttachedToTargetClient is a client for AttachedToTarget events. Issued when

@@ -3,7 +3,7 @@ package session
 import (
 	"io"
 
-	"github.com/mafredri/cdp/internal/errors"
+	"github.com/icc-fathom/cdp/internal/errors"
 )
 
 // closeConn is a fake connection with a close function.

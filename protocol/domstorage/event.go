@@ -3,7 +3,7 @@
 package domstorage
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // ItemAddedClient is a client for DOMStorageItemAdded events.

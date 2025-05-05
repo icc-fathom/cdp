@@ -3,7 +3,7 @@
 package webaudio
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // ContextCreatedClient is a client for ContextCreated events. Notifies that a

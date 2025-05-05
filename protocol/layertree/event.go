@@ -3,8 +3,8 @@
 package layertree
 
 import (
-	"github.com/mafredri/cdp/protocol/dom"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/protocol/dom"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // LayerPaintedClient is a client for LayerPainted events.

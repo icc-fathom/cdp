@@ -3,9 +3,9 @@
 package accessibility
 
 import (
-	"github.com/mafredri/cdp/protocol/dom"
-	"github.com/mafredri/cdp/protocol/page"
-	"github.com/mafredri/cdp/protocol/runtime"
+	"github.com/icc-fathom/cdp/protocol/dom"
+	"github.com/icc-fathom/cdp/protocol/page"
+	"github.com/icc-fathom/cdp/protocol/runtime"
 )
 
 // GetPartialAXTreeArgs represents the arguments for GetPartialAXTree in the Accessibility domain.

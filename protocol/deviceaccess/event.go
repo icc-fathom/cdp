@@ -3,7 +3,7 @@
 package deviceaccess
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // DeviceRequestPromptedClient is a client for DeviceRequestPrompted events. A

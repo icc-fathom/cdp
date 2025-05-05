@@ -3,7 +3,7 @@
 package database
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // AddDatabaseClient is a client for AddDatabase events.

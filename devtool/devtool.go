@@ -12,7 +12,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/mafredri/cdp/internal/errors"
+	"github.com/icc-fathom/cdp/internal/errors"
 )
 
 // DevToolsOption represents a function that sets a DevTools option.

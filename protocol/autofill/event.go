@@ -3,7 +3,7 @@
 package autofill
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // AddressFormFilledClient is a client for AddressFormFilled events. Emitted

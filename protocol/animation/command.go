@@ -3,7 +3,7 @@
 package animation
 
 import (
-	"github.com/mafredri/cdp/protocol/runtime"
+	"github.com/icc-fathom/cdp/protocol/runtime"
 )
 
 // GetCurrentTimeArgs represents the arguments for GetCurrentTime in the Animation domain.

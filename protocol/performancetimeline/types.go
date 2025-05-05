@@ -3,9 +3,9 @@
 package performancetimeline
 
 import (
-	"github.com/mafredri/cdp/protocol/dom"
-	"github.com/mafredri/cdp/protocol/network"
-	"github.com/mafredri/cdp/protocol/page"
+	"github.com/icc-fathom/cdp/protocol/dom"
+	"github.com/icc-fathom/cdp/protocol/network"
+	"github.com/icc-fathom/cdp/protocol/page"
 )
 
 // LargestContentfulPaint See https://github.com/WICG/LargestContentfulPaint

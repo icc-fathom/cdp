@@ -9,7 +9,7 @@ import (
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 
-	"github.com/mafredri/cdp/cmd/cdpgen/lint"
+	"github.com/icc-fathom/cdp/cmd/cdpgen/lint"
 )
 
 var (

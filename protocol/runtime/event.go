@@ -5,7 +5,7 @@ package runtime
 import (
 	"encoding/json"
 
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // BindingCalledClient is a client for BindingCalled events. Notification is

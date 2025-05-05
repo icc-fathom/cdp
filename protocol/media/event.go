@@ -3,7 +3,7 @@
 package media
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // PlayerPropertiesChangedClient is a client for PlayerPropertiesChanged events.

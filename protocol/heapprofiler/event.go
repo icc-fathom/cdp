@@ -3,7 +3,7 @@
 package heapprofiler
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // AddHeapSnapshotChunkClient is a client for AddHeapSnapshotChunk events.

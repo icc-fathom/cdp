@@ -5,8 +5,8 @@ package tracing
 import (
 	"encoding/json"
 
-	"github.com/mafredri/cdp/protocol/io"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/protocol/io"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // BufferUsageClient is a client for BufferUsage events.

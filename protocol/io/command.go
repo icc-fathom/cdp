@@ -3,7 +3,7 @@
 package io
 
 import (
-	"github.com/mafredri/cdp/protocol/runtime"
+	"github.com/icc-fathom/cdp/protocol/runtime"
 )
 
 // CloseArgs represents the arguments for Close in the IO domain.

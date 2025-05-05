@@ -3,8 +3,8 @@
 package applicationcache
 
 import (
-	"github.com/mafredri/cdp/protocol/page"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/protocol/page"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // StatusUpdatedClient is a client for ApplicationCacheStatusUpdated events.

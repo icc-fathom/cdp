@@ -3,7 +3,7 @@
 package debugger
 
 import (
-	"github.com/mafredri/cdp/protocol/runtime"
+	"github.com/icc-fathom/cdp/protocol/runtime"
 )
 
 // ContinueToLocationArgs represents the arguments for ContinueToLocation in the Debugger domain.

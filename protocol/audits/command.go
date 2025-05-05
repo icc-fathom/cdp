@@ -3,7 +3,7 @@
 package audits
 
 import (
-	"github.com/mafredri/cdp/protocol/network"
+	"github.com/icc-fathom/cdp/protocol/network"
 )
 
 // GetEncodedResponseArgs represents the arguments for GetEncodedResponse in the Audits domain.

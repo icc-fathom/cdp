@@ -3,8 +3,8 @@
 package backgroundservice
 
 import (
-	"github.com/mafredri/cdp/protocol/network"
-	"github.com/mafredri/cdp/protocol/serviceworker"
+	"github.com/icc-fathom/cdp/protocol/network"
+	"github.com/icc-fathom/cdp/protocol/serviceworker"
 )
 
 // ServiceName The Background Service that will be associated with the

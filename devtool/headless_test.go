@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/mafredri/cdp/protocol/target"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/protocol/target"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 type multiHandler struct {

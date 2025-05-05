@@ -1,7 +1,7 @@
 package cdp
 
 import (
-	"github.com/mafredri/cdp/internal/errors"
+	"github.com/icc-fathom/cdp/internal/errors"
 )
 
 // ErrorCause returns the underlying cause for this error, if possible.

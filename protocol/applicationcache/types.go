@@ -3,7 +3,7 @@
 package applicationcache
 
 import (
-	"github.com/mafredri/cdp/protocol/page"
+	"github.com/icc-fathom/cdp/protocol/page"
 )
 
 // Resource Detailed application cache resource information.

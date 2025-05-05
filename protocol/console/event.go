@@ -3,7 +3,7 @@
 package console
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // MessageAddedClient is a client for MessageAdded events. Issued when new

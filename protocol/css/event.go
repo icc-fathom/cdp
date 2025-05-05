@@ -3,7 +3,7 @@
 package css
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // FontsUpdatedClient is a client for FontsUpdated events. Fires whenever a

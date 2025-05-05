@@ -3,7 +3,7 @@
 package inspector
 
 import (
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/icc-fathom/cdp/rpcc"
 )
 
 // DetachedClient is a client for Detached events. Fired when remote debugging

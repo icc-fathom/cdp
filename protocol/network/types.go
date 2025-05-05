@@ -7,10 +7,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/mafredri/cdp/protocol/internal"
-	"github.com/mafredri/cdp/protocol/io"
-	"github.com/mafredri/cdp/protocol/runtime"
-	"github.com/mafredri/cdp/protocol/security"
+	"github.com/icc-fathom/cdp/protocol/internal"
+	"github.com/icc-fathom/cdp/protocol/io"
+	"github.com/icc-fathom/cdp/protocol/runtime"
+	"github.com/icc-fathom/cdp/protocol/security"
 )
 
 // ResourceType Resource type as it was perceived by the rendering engine.

@@ -3,7 +3,7 @@
 package profiler
 
 import (
-	"github.com/mafredri/cdp/protocol/runtime"
+	"github.com/icc-fathom/cdp/protocol/runtime"
 )
 
 // ProfileNode Profile node. Holds callsite information, execution statistics

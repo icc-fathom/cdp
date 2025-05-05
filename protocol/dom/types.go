@@ -5,7 +5,7 @@ package dom
 import (
 	"encoding/json"
 
-	"github.com/mafredri/cdp/protocol/internal"
+	"github.com/icc-fathom/cdp/protocol/internal"
 )
 
 // NodeID Unique DOM node identifier.

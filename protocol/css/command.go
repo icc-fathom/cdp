@@ -3,8 +3,8 @@
 package css
 
 import (
-	"github.com/mafredri/cdp/protocol/dom"
-	"github.com/mafredri/cdp/protocol/page"
+	"github.com/icc-fathom/cdp/protocol/dom"
+	"github.com/icc-fathom/cdp/protocol/page"
 )
 
 // AddRuleArgs represents the arguments for AddRule in the CSS domain.
