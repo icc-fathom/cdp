@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
+	"fmt"
 	"sync"
 )
 
@@ -230,6 +231,7 @@ func (s *streamClient) recv() (m *message, err error) {
 }
 
 func (s *streamClient) write(m message) {
+	fmt.Println("METHOD:", m.method)
 	s.readyMu.Lock()
 	defer s.readyMu.Unlock()
 
