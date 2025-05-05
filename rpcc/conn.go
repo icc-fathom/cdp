@@ -463,12 +463,17 @@ func (c *Conn) listen(method string, w streamWriter) (func(), error) {
 
 	stream, ok := c.streams[method]
 	if !ok {
+		fmt.Println("---- ADDING FOR", method)
 		stream = newStreamClients()
 		c.streams[method] = stream
 	}
 	seq := stream.add(w)
 
-	unsub := func() { stream.remove(seq) }
+	unsub := func() {
+		fmt.Println("---- REMOVING FOR", method)
+		stream.remove(seq)
+
+	}
 	return unsub, nil
 }
 
