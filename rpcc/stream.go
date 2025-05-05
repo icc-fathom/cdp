@@ -246,6 +246,7 @@ func (s *streamClient) write(m message) {
 
 	next := m.next
 	m.next = func() {
+		fmt.Println("METHOD:", m.method)
 		s.readyMu.Lock()
 		if s.seq == seq && !s.readyClosed {
 			// This was the last message, open a blocking
