@@ -327,6 +327,7 @@ func (c *Conn) recv(notify func(string, []byte), done func(error)) {
 	for {
 		resp.reset()
 		if err = c.codec.ReadResponse(&resp); err != nil {
+			fmt.Println(err)
 			done(err)
 			return
 		}
