@@ -332,6 +332,7 @@ func (c *Conn) recv(notify func(string, []byte), done func(error)) {
 			return
 		}
 
+		fmt.Println("RPC: [", resp.Method, "]  [", resp.ID, "]")
 		// Check if this is an RPC notification from the server.
 		if resp.Method != "" {
 			// Method represents the event that was triggered over the

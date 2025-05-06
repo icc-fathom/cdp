@@ -45,7 +45,7 @@ func (cw *wsReadWriteCloser) Read(p []byte) (n int, err error) {
 // Write requests the NextWriter for the WebSocket and writes the
 // message. Implements io.Writer.
 func (cw *wsReadWriteCloser) Write(p []byte) (n int, err error) {
-	w, err := cw.wsConn.NextWriter(websocket.BinaryMessage)
+	w, err := cw.wsConn.NextWriter(websocket.TextMessage)
 	if err != nil {
 		return 0, err
 	}
